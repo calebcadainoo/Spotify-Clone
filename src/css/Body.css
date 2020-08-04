@@ -1,0 +1,9 @@
+
+.body{
+	flex: 0.8; /* use 80% of available space */
+	height: 100vh;
+	color: #fff;
+	padding: 30px;
+	background-color: rgb(91, 87, 115);
+	background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0));
+}
