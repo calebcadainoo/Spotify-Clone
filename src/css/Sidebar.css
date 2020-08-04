@@ -1,0 +1,16 @@
+
+.sidebar{
+	min-width: 230px;
+	height: 100vh;
+	flex: 0.2; /* use 20% of available space */
+	background-color: #040404;
+	color: #fff;
+	padding: 0px 10px;
+	/* background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0)); */
+}
+
+.sidebar-logo{
+	height: 70px;
+	margin-right: auto;
+	padding: 10px;
+}
