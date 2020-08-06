@@ -6,4 +6,18 @@
 	width: 100%;
 	background: #282828;
 	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left{
+	flex: 0.3;
+}
+
+.footer-center{
+	flex: 0.4;
+}
+
+.footer-right{
+	flex: 0.3;
 }

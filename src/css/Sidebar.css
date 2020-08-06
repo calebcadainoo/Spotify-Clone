@@ -14,3 +14,10 @@
 	margin-right: auto;
 	padding: 10px;
 }
+
+.sidebar-title{
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
