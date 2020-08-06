@@ -31,7 +31,13 @@ function App() {
           type: 'SET_USER',
           user: user
         })
+      })
 
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: 'SET_PLAYLISTS',
+          playlists: playlists,
+        })
       })
     }
 
@@ -39,6 +45,8 @@ function App() {
 
   return (
     <div className="app">
+      {/* Left off @ 3:08:25
+      https://youtu.be/pnkuI8KXW_8 */}
       {
         token ? ( <Player spotify={spotify} /> )  : ( <Login /> )
       }
