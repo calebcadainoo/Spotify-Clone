@@ -65,7 +65,7 @@
 	align-items: center;
 	justify-content: space-between;
 	max-width: 300px;
-	/* box-sizing: content-box; */
+	box-sizing: content-box;
 }
 
 .footer-right * .MuiSlider-root{
