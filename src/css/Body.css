@@ -1,9 +1,70 @@
 
 .body{
 	flex: 0.8; /* use 80% of available space */
-	height: 100vh;
+	height: 92vh;
 	color: #fff;
 	padding: 30px;
 	background-color: rgb(91, 87, 115);
 	background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0));
+	/* overflow-y: overlay; */
+	overflow-y: auto;
+	padding-bottom: 20px;
+}
+
+.body::-webkit-scrollbar{
+	/* display: none; */
+}
+
+.body-info{
+	display: flex;
+	align-items: flex-end;
+	padding: 10px;
+}
+
+.body-info > img{
+	height: 15vw;
+	margin: 0 20px;
+	box-shadow: 0px 4px 60px rgba(54, 53, 53, 0.5);
+	border-radius: 5px;
+}
+
+.body-info-text{
+	flex: 1;
+}
+
+.body-info-text > h2{
+	font-size: 48px;
+	/* font-size: 96px; */
+	margin-bottom: 10px;
+}
+
+.body-info-text > p{
+	font-size: 14px;
+}
+
+.body-icons{
+	display: flex;
+	align-items: center;
+}
+
+.body-icons > .MuiSvgIcon-root{
+	margin-right: 20px;
+}
+
+.body-shuffle{
+	font-size: 80px !important;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.body-shuffle:hover{
+	transition: 100ms transform ease-in;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+.body-songs{
+	/* margin: 20px -30px; */
+	margin: 20px 0px;
 }
